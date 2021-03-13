@@ -2,4 +2,4 @@
 
 - https://dribbble.com/shots/5622653/attachments/1215149?mode=media
 
-- https://material-ui.com/components/material-icons/
+- https://materialdesignicons.com/

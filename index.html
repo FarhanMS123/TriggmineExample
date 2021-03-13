@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body style="overflow-x: hidden;">
-    <div style="background: #44cc88; color:rgba(255,255,255,0.92); padding: 4em 0em;">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./img/logo.png">
+            <span>Triggmine</span>
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Stories</a>
+            <a href="#">About</a>
+            <a class="style2" href="#">Contact</a>
+        </div>
+    </div>
+    <div style="background: #44cc88; color:rgba(255,255,255,0.92); padding: 8em 1em 4em 1em;">
         <div style="display:flex; justify-content: space-around; align-items: center;">
             <div style="flex-basis:20em;">
                 <h1 style="font-weight: 400;">Smart Email Assistean</h1>
@@ -20,8 +33,13 @@
             </div>
         </div>
     </div>
-    <div style="background-color: #f9f9fc; overflow: auto; color:rgba(0,0,0,0.72); text-align: center; padding: 4em 0em;">
-        <h1 style="font-weight: 400;">Why Triggmine</h1>
+    <div style="background-color: #f9f9fc; overflow: auto; color:rgba(0,0,0,0.72); text-align: center; padding: 6em 0em 4em 0em;">
+        <div style="position: relative;">
+            <div style="display:inline-block; position: absolute; z-index: 0; top:-42px; transform: translateX(-9.8em);">
+                <svg style="fill:#fde9d0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100" height="100" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z" /></svg>
+            </div>
+            <h1 style="font-weight: 700; position: relative; z-index: 1;">Why Triggmine</h1>
+        </div>
         <div style="display: inline-block; width:100%; max-width: 60em; text-align: left; margin: 2em 0em;">
             <div style="display: flex; justify-content: space-around; flex-wrap: wrap; align-items: center;">
                 <div class="card1">
@@ -71,13 +89,16 @@
             </div>
         </div>
     </div>
-    <div style="padding: 4em 0em; display: flex; justify-content: center; align-items: flex-end;">
+    <div style="padding: 8em 0em; display: flex; justify-content: center; align-items: flex-end;">
         <div style="margin-left: 8em;">
             <img src="./img/ilus2.png">
         </div>
         <div style="margin-left: 4em;">
-            <div style="margin-bottom: 3em;">
-                <h1>How It works</h1>
+            <div style="margin-bottom: 3em; position: relative;">
+                <div style="display: inline-block; position: absolute; z-index: 0; top: -90px; transform: translateX(-100px);">
+                    <svg style="fill:#fde9d0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="150" height="150" viewBox="0 0 24 24"><path d="M13.78 15.3L19.78 21.3L21.89 19.14L15.89 13.14L13.78 15.3M17.5 10.1C17.11 10.1 16.69 10.05 16.36 9.91L4.97 21.25L2.86 19.14L10.27 11.74L8.5 9.96L7.78 10.66L6.33 9.25V12.11L5.63 12.81L2.11 9.25L2.81 8.55H5.62L4.22 7.14L7.78 3.58C8.95 2.41 10.83 2.41 12 3.58L9.89 5.74L11.3 7.14L10.59 7.85L12.38 9.63L14.2 7.75C14.06 7.42 14 7 14 6.63C14 4.66 15.56 3.11 17.5 3.11C18.09 3.11 18.61 3.25 19.08 3.53L16.41 6.2L17.91 7.7L20.58 5.03C20.86 5.5 21 6 21 6.63C21 8.55 19.45 10.1 17.5 10.1Z" /></svg>
+                </div>
+                <h1 style="font-weight: 400; position: relative; z-index: 1;">How It works</h1>
             </div>
             <div style="border-left: dashed 4px rgba(0,0,0,0.2);">
                 <div class="card2 active">
@@ -128,7 +149,12 @@
         </div>
     </div>
     <div style="background-color: #fbfbfb;padding: 6em 0em;">
-        <h1 style="font-weight: 400; text-align: center;">Feedback</h1>
+        <div style="text-align: center; position: relative;">
+            <div style="display:inline-block; position: absolute; z-index: 0; top:-80px; transform: translateX(-10em);">
+                <svg style="fill:#fde9d0;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="150" height="150" viewBox="0 0 24 24"><path d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z" /></svg>
+            </div>
+            <h1 style="font-weight: 700; text-align: center; position: relative; z-index: 1; color:rgba(0,0,0,0.82)">Feedback</h1>
+        </div>
         <div style="display: flex; justify-content: space-around; margin: 5em 0em;">
             <div class="card3" style="width: 14em;">
                 <div class="head">
